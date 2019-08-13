@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { axiosWithAuth } from '../components/axiosAuth'
+import { axiosWithAuth } from '../components/axiosWithAuth.js'
 
 export const REGISTER_USER_START = 'REGISTER_USER_START';
 export const REGISTER_USER_SUCCESS = 'REGISTER_USER_SUCCESS';
