@@ -4,9 +4,9 @@ import useForm from '../hooks/useForm'
 
 const UserRegistrationForm = () => {
 
-  const {handleSubmit, handleChange, values} = useForm(login)
+  const {handleSubmit, handleChange, values} = useForm(register)
 
-  function login() {
+  function register() {
     console.log(values)
   }
 

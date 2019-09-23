@@ -47,8 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-.App {
-  text-align: center;
+.appContainer {
+	width: 800px
 }
 
 .form {
@@ -57,4 +57,32 @@ table {
   width: 20%;
   min-width: 300px;
   margin: 0 auto;
+}
+
+.dropZone {
+	display: flex;
+	flex-direction: row;
+}
+
+.dropSquare {
+	background-color: greenyellow;
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.tile {
+	background-color: white;
+	color: black;
+	height: 40px;
+	width: 40px;
+	margin: 5px;
+}
+
+.tileRack {
+	display: flex;
+	flex-direction: row;
+	background-color: darkolivegreen;
+	width: 350px;
+	height: 50px;
 }
